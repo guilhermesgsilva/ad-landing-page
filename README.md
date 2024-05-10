@@ -1,6 +1,6 @@
 # AD Landing Page
 
-Application developed in the context of the Alta Digital recruitment process for the Front-End Developer position.
+Application developed in the context of the [Alta Digital](https://www.linkedin.com/company/altadigital/) recruitment process for the Front-End Developer position.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
