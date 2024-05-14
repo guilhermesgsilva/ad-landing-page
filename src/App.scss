@@ -1,0 +1,6 @@
+@use "./theme/palette";
+
+.App {
+  min-height: 100vh;
+  color: palette.$blue-dark;
+}

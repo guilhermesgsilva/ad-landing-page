@@ -1,0 +1,324 @@
+{
+  "navigation": {
+    "links": [
+      {
+        "title": "Expertise",
+        "links": [
+          { "title": "" },
+          { "title": "" },
+          { "title": "" },
+          { "title": "" },
+          { "title": "" },
+          { "title": "" }
+        ],
+        "cards": [
+          {
+            "image": "",
+            "subject": "",
+            "text": "",
+            "avatar": { "image": "", "name": "" },
+            "button": "",
+            "place": "",
+            "start": "",
+            "end": ""
+          },
+          {
+            "image": "",
+            "subject": "",
+            "text": "",
+            "avatar": { "image": "", "name": "" },
+            "button": "",
+            "place": "",
+            "start": "",
+            "end": ""
+          },
+          {
+            "image": "",
+            "subject": "",
+            "text": "",
+            "avatar": { "image": "", "name": "" },
+            "button": "",
+            "place": "",
+            "start": "",
+            "end": ""
+          }
+        ]
+      },
+      {
+        "title": "Jurisdictions",
+        "links": [
+          { "title": "" },
+          { "title": "" },
+          { "title": "" },
+          { "title": "" },
+          { "title": "" },
+          { "title": "" }
+        ],
+        "cards": [
+          {
+            "image": "",
+            "subject": "",
+            "text": "",
+            "avatar": { "image": "", "name": "" },
+            "button": "",
+            "place": "",
+            "start": "",
+            "end": ""
+          },
+          {
+            "image": "",
+            "subject": "",
+            "text": "",
+            "avatar": { "image": "", "name": "" },
+            "button": "",
+            "place": "",
+            "start": "",
+            "end": ""
+          },
+          {
+            "image": "",
+            "subject": "",
+            "text": "",
+            "avatar": { "image": "", "name": "" },
+            "button": "",
+            "place": "",
+            "start": "",
+            "end": ""
+          }
+        ]
+      },
+      {
+        "title": "Team",
+        "links": [
+          { "title": "" },
+          { "title": "" },
+          { "title": "" },
+          { "title": "" },
+          { "title": "" },
+          { "title": "" }
+        ],
+        "cards": [
+          {
+            "image": "",
+            "subject": "",
+            "text": "",
+            "avatar": { "image": "", "name": "" },
+            "button": "",
+            "place": "",
+            "start": "",
+            "end": ""
+          },
+          {
+            "image": "",
+            "subject": "",
+            "text": "",
+            "avatar": { "image": "", "name": "" },
+            "button": "",
+            "place": "",
+            "start": "",
+            "end": ""
+          },
+          {
+            "image": "",
+            "subject": "",
+            "text": "",
+            "avatar": { "image": "", "name": "" },
+            "button": "",
+            "place": "",
+            "start": "",
+            "end": ""
+          }
+        ]
+      },
+      {
+        "title": "Ip News & Insights",
+        "links": [
+          { "title": "Opinion Articles" },
+          { "title": "Announcements" },
+          { "title": "Press Releases" },
+          { "title": "Case Studies" },
+          { "title": "Events" },
+          { "title": "Insights" }
+        ],
+        "cards": [
+          {
+            "image": "TODO",
+            "subject": "",
+            "text": "GI products such as figs, pepper and olive oil grow under cooperation between the EU and Africa",
+            "avatar": { "image": "", "name": "" },
+            "button": "Case Study",
+            "place": "",
+            "start": "",
+            "end": ""
+          },
+          {
+            "image": "",
+            "subject": "Leaders League 2023",
+            "text": "The Legal 500: Intellectual Property Comparative Guide - Portugal",
+            "avatar": { "image": "", "name": "" },
+            "button": "Press Release",
+            "place": "",
+            "start": "",
+            "end": ""
+          },
+          {
+            "image": "",
+            "subject": "",
+            "text": "58th Edition FACIM - Maputo's International Trade Fair",
+            "avatar": { "image": "TODO", "name": "Rute Franco" },
+            "button": "Press Release",
+            "place": "Póvoa de Santa Iria",
+            "start": "TODO",
+            "end": "TODO"
+          }
+        ]
+      },
+      {
+        "title": "About Us",
+        "links": [
+          { "title": "" },
+          { "title": "" },
+          { "title": "" },
+          { "title": "" },
+          { "title": "" },
+          { "title": "" }
+        ],
+        "cards": [
+          {
+            "image": "",
+            "subject": "",
+            "text": "",
+            "avatar": { "image": "", "name": "" },
+            "button": "",
+            "place": "",
+            "start": "",
+            "end": ""
+          },
+          {
+            "image": "",
+            "subject": "",
+            "text": "",
+            "avatar": { "image": "", "name": "" },
+            "button": "",
+            "place": "",
+            "start": "",
+            "end": ""
+          },
+          {
+            "image": "",
+            "subject": "",
+            "text": "",
+            "avatar": { "image": "", "name": "" },
+            "button": "",
+            "place": "",
+            "start": "",
+            "end": ""
+          }
+        ]
+      },
+      {
+        "title": "Contacts",
+        "links": [
+          { "title": "" },
+          { "title": "" },
+          { "title": "" },
+          { "title": "" },
+          { "title": "" },
+          { "title": "" }
+        ],
+        "cards": [
+          {
+            "image": "",
+            "subject": "",
+            "text": "",
+            "avatar": { "image": "", "name": "" },
+            "button": "",
+            "place": "",
+            "start": "",
+            "end": ""
+          },
+          {
+            "image": "",
+            "subject": "",
+            "text": "",
+            "avatar": { "image": "", "name": "" },
+            "button": "",
+            "place": "",
+            "start": "",
+            "end": ""
+          },
+          {
+            "image": "",
+            "subject": "",
+            "text": "",
+            "avatar": { "image": "", "name": "" },
+            "button": "",
+            "place": "",
+            "start": "",
+            "end": ""
+          }
+        ]
+      }
+    ]
+  },
+  "banner": {
+    "slides": [
+      {
+        "image": "TODO",
+        "subject": "Consectetur leo quis vitae viverra aenean ornare",
+        "title": "Ullamcorper id at dolor sed eu ornare orci sem",
+        "text": "Consequat egestas volutpat mattis suscipit. At semper urna tortor sed purus proin volutpat. Neque nisl quis nulla etiam.",
+        "button": "Read More"
+      },
+      {
+        "image": "",
+        "subject": "",
+        "title": "",
+        "text": "",
+        "button": ""
+      },
+      {
+        "image": "",
+        "subject": "",
+        "title": "",
+        "text": "",
+        "button": ""
+      }
+    ]
+  },
+  "carousel": {
+    "title": "Opinion Articles",
+    "cards": [
+      {
+        "image": "TODO",
+        "subject": "",
+        "text": "GI products such as figs, pepper and olive oil grow under cooperation between the EU and Africa",
+        "avatar": { "image": "TODO", "name": "Inês Monteiro Alves" },
+        "button": "Opinion Article",
+        "place": "",
+        "start": "TODO",
+        "end": ""
+      },
+      {
+        "image": "TODO",
+        "subject": "",
+        "text": "Influencers and Brand Defamation",
+        "avatar": { "image": "TODO", "name": "Rute Franco" },
+        "button": "Opinion Article",
+        "place": "",
+        "start": "TODO",
+        "end": ""
+      },
+      {
+        "image": "TODO",
+        "subject": "",
+        "text": "Influencers and Brand Defamation",
+        "avatar": { "image": "TODO", "name": "Rute Franco" },
+        "button": "Opinion Article",
+        "place": "",
+        "start": "TODO",
+        "end": ""
+      }
+    ]
+  }
+}
