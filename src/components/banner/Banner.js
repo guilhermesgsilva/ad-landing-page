@@ -12,6 +12,7 @@ function Banner() {
   const buttons = placeholder.buttons;
 
   const { carouselFragment } = useSpringCarousel({
+    withLoop: true,
     items: slides.map((item) => {
       return {
         id: item.title,
