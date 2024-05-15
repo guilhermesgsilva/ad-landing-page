@@ -10,15 +10,13 @@ function NavBar() {
   return (
     <header>
       <nav>
-        <ul>
+        <ul className="nav__list">
           {links.map((item) => {
             return (
-              <>
-                <li>
-                  <a href="/">{item.title}</a>
-                </li>
+              <li key={item.id}>
+                <a href="/">{item.title}</a>
                 {/* <NavMenu/> */}
-              </>
+              </li>
             );
           })}
         </ul>

@@ -1,0 +1,72 @@
+@use "../../theme/spacing";
+@use "../../theme/palette";
+@use "../../theme/typography";
+
+.banner {
+  * {
+    max-height: spacing.$unit30;
+  }
+
+  clip-path: ellipse(100% 100% at 15% 7.5%);
+}
+
+.banner__slide {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  color: palette.$white;
+
+  div {
+    z-index: 1;
+    position: absolute;
+    width: 50%;
+    padding: 0 spacing.$unit2 spacing.$unit3;
+
+    * {
+      margin: spacing.$none;
+    }
+
+    h3 {
+      @include typography.font($size: typography.$font_size_xs);
+    }
+
+    h2 {
+      @include typography.font(
+        $size: typography.$font_size_xxl,
+        $weight: typography.$font_weight_light
+      );
+    }
+
+    p {
+      @include typography.font($size: typography.$font_size_l);
+      margin-top: spacing.$unit1_5;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      color: palette.$white;
+      @include typography.font(
+        $size: typography.$font_size_xxs,
+        $weight: typography.$font_weight_medium
+      );
+      gap: spacing.$unit1;
+      margin-top: spacing.$unit1_5;
+
+      svg {
+        width: spacing.$unit1_5;
+        height: spacing.$unit1_5;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  img {
+    display: block;
+    width: 100vw;
+    object-fit: cover;
+  }
+}

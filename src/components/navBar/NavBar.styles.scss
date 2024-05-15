@@ -6,7 +6,7 @@ header {
   display: contents;
 }
 
-ul {
+.nav__list {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
@@ -15,22 +15,20 @@ ul {
   padding: 0;
   min-height: spacing.$unit5_5;
   padding: 0 spacing.$unit1;
-}
 
-li {
-  list-style-type: none;
-  margin-right: spacing.$unit1;
-}
+  li {
+    margin-right: spacing.$unit1;
+  }
 
-a {
-  display: block;
-  text-decoration: none;
-  color: palette.$blue-dark;
-  height: spacing.$unit2;
+  a {
+    display: block;
+    color: palette.$blue-dark;
+    height: spacing.$unit2;
 
-  &:hover {
-    height: spacing.$unit1_75;
-    border-bottom: spacing.$unit0_25 solid palette.$blue;
-    color: palette.$blue;
+    &:hover {
+      height: spacing.$unit1_75;
+      border-bottom: spacing.$unit0_25 solid palette.$blue;
+      color: palette.$blue;
+    }
   }
 }

@@ -2,42 +2,43 @@
   "navigation": {
     "links": [
       {
+        "id": "1",
         "title": "Expertise",
         "links": [
-          { "title": "" },
-          { "title": "" },
-          { "title": "" },
-          { "title": "" },
-          { "title": "" },
-          { "title": "" }
+          { "id": "1", "title": "" },
+          { "id": "2", "title": "" },
+          { "id": "3", "title": "" },
+          { "id": "4", "title": "" },
+          { "id": "5", "title": "" },
+          { "id": "6", "title": "" }
         ],
         "cards": [
           {
+            "id": "1",
             "image": "",
             "subject": "",
             "text": "",
             "avatar": { "image": "", "name": "" },
-            "button": "",
             "place": "",
             "start": "",
             "end": ""
           },
           {
+            "id": "2",
             "image": "",
             "subject": "",
             "text": "",
             "avatar": { "image": "", "name": "" },
-            "button": "",
             "place": "",
             "start": "",
             "end": ""
           },
           {
+            "id": "3",
             "image": "",
             "subject": "",
             "text": "",
             "avatar": { "image": "", "name": "" },
-            "button": "",
             "place": "",
             "start": "",
             "end": ""
@@ -45,42 +46,43 @@
         ]
       },
       {
+        "id": "2",
         "title": "Jurisdictions",
         "links": [
-          { "title": "" },
-          { "title": "" },
-          { "title": "" },
-          { "title": "" },
-          { "title": "" },
-          { "title": "" }
+          { "id": "1", "title": "" },
+          { "id": "2", "title": "" },
+          { "id": "3", "title": "" },
+          { "id": "4", "title": "" },
+          { "id": "5", "title": "" },
+          { "id": "6", "title": "" }
         ],
         "cards": [
           {
+            "id": "1",
             "image": "",
             "subject": "",
             "text": "",
             "avatar": { "image": "", "name": "" },
-            "button": "",
             "place": "",
             "start": "",
             "end": ""
           },
           {
+            "id": "2",
             "image": "",
             "subject": "",
             "text": "",
             "avatar": { "image": "", "name": "" },
-            "button": "",
             "place": "",
             "start": "",
             "end": ""
           },
           {
+            "id": "3",
             "image": "",
             "subject": "",
             "text": "",
             "avatar": { "image": "", "name": "" },
-            "button": "",
             "place": "",
             "start": "",
             "end": ""
@@ -88,42 +90,43 @@
         ]
       },
       {
+        "id": "3",
         "title": "Team",
         "links": [
-          { "title": "" },
-          { "title": "" },
-          { "title": "" },
-          { "title": "" },
-          { "title": "" },
-          { "title": "" }
+          { "id": "1", "title": "" },
+          { "id": "2", "title": "" },
+          { "id": "3", "title": "" },
+          { "id": "4", "title": "" },
+          { "id": "5", "title": "" },
+          { "id": "6", "title": "" }
         ],
         "cards": [
           {
+            "id": "1",
             "image": "",
             "subject": "",
             "text": "",
             "avatar": { "image": "", "name": "" },
-            "button": "",
             "place": "",
             "start": "",
             "end": ""
           },
           {
+            "id": "2",
             "image": "",
             "subject": "",
             "text": "",
             "avatar": { "image": "", "name": "" },
-            "button": "",
             "place": "",
             "start": "",
             "end": ""
           },
           {
+            "id": "3",
             "image": "",
             "subject": "",
             "text": "",
             "avatar": { "image": "", "name": "" },
-            "button": "",
             "place": "",
             "start": "",
             "end": ""
@@ -131,42 +134,46 @@
         ]
       },
       {
+        "id": "4",
         "title": "Ip News & Insights",
         "links": [
-          { "title": "Opinion Articles" },
-          { "title": "Announcements" },
-          { "title": "Press Releases" },
-          { "title": "Case Studies" },
-          { "title": "Events" },
-          { "title": "Insights" }
+          { "id": "1", "title": "Opinion Articles" },
+          { "id": "2", "title": "Announcements" },
+          { "id": "3", "title": "Press Releases" },
+          { "id": "4", "title": "Case Studies" },
+          { "id": "5", "title": "Events" },
+          { "id": "6", "title": "Insights" }
         ],
         "cards": [
           {
+            "id": "1",
             "image": "TODO",
             "subject": "",
             "text": "GI products such as figs, pepper and olive oil grow under cooperation between the EU and Africa",
             "avatar": { "image": "", "name": "" },
-            "button": "Case Study",
+            "button": "caseStudy",
             "place": "",
             "start": "",
             "end": ""
           },
           {
+            "id": "2",
             "image": "",
             "subject": "Leaders League 2023",
             "text": "The Legal 500: Intellectual Property Comparative Guide - Portugal",
             "avatar": { "image": "", "name": "" },
-            "button": "Press Release",
+            "button": "pressRelease",
             "place": "",
             "start": "",
             "end": ""
           },
           {
+            "id": "3",
             "image": "",
             "subject": "",
             "text": "58th Edition FACIM - Maputo's International Trade Fair",
             "avatar": { "image": "TODO", "name": "Rute Franco" },
-            "button": "Press Release",
+            "button": "pressRelease",
             "place": "Póvoa de Santa Iria",
             "start": "TODO",
             "end": "TODO"
@@ -174,42 +181,46 @@
         ]
       },
       {
+        "id": "5",
         "title": "About Us",
         "links": [
-          { "title": "" },
-          { "title": "" },
-          { "title": "" },
-          { "title": "" },
-          { "title": "" },
-          { "title": "" }
+          { "id": "1", "title": "" },
+          { "id": "2", "title": "" },
+          { "id": "3", "title": "" },
+          { "id": "4", "title": "" },
+          { "id": "5", "title": "" },
+          { "id": "6", "title": "" }
         ],
         "cards": [
           {
+            "id": "1",
             "image": "",
             "subject": "",
             "text": "",
             "avatar": { "image": "", "name": "" },
-            "button": "",
+
             "place": "",
             "start": "",
             "end": ""
           },
           {
+            "id": "2",
             "image": "",
             "subject": "",
             "text": "",
             "avatar": { "image": "", "name": "" },
-            "button": "",
+
             "place": "",
             "start": "",
             "end": ""
           },
           {
+            "id": "3",
             "image": "",
             "subject": "",
             "text": "",
             "avatar": { "image": "", "name": "" },
-            "button": "",
+
             "place": "",
             "start": "",
             "end": ""
@@ -217,42 +228,46 @@
         ]
       },
       {
+        "id": "6",
         "title": "Contacts",
         "links": [
-          { "title": "" },
-          { "title": "" },
-          { "title": "" },
-          { "title": "" },
-          { "title": "" },
-          { "title": "" }
+          { "id": "1", "title": "" },
+          { "id": "2", "title": "" },
+          { "id": "3", "title": "" },
+          { "id": "4", "title": "" },
+          { "id": "5", "title": "" },
+          { "id": "6", "title": "" }
         ],
         "cards": [
           {
+            "id": "1",
             "image": "",
             "subject": "",
             "text": "",
             "avatar": { "image": "", "name": "" },
-            "button": "",
+
             "place": "",
             "start": "",
             "end": ""
           },
           {
+            "id": "2",
             "image": "",
             "subject": "",
             "text": "",
             "avatar": { "image": "", "name": "" },
-            "button": "",
+
             "place": "",
             "start": "",
             "end": ""
           },
           {
+            "id": "3",
             "image": "",
             "subject": "",
             "text": "",
             "avatar": { "image": "", "name": "" },
-            "button": "",
+
             "place": "",
             "start": "",
             "end": ""
@@ -264,25 +279,25 @@
   "banner": {
     "slides": [
       {
-        "image": "TODO",
+        "id": "1",
+        "image": "https://picsum.photos/id/2/500/300",
         "subject": "Consectetur leo quis vitae viverra aenean ornare",
         "title": "Ullamcorper id at dolor sed eu ornare orci sem",
-        "text": "Consequat egestas volutpat mattis suscipit. At semper urna tortor sed purus proin volutpat. Neque nisl quis nulla etiam.",
-        "button": "Read More"
+        "text": "Consequat egestas volutpat mattis suscipit. At semper urna tortor sed purus proin volutpat. Neque nisl quis nulla etiam."
       },
       {
-        "image": "",
-        "subject": "",
-        "title": "",
-        "text": "",
-        "button": ""
+        "id": "2",
+        "image": "https://picsum.photos/id/3/500/300",
+        "subject": "Quis autem vel eum iure reprehenderit",
+        "title": "Sed ut perspiciatis unde omnis iste natus error",
+        "text": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?"
       },
       {
-        "image": "",
-        "subject": "",
-        "title": "",
-        "text": "",
-        "button": ""
+        "id": "3",
+        "image": "https://picsum.photos/id/4/500/300",
+        "subject": "Itaque earum rerum hic tenetur a sapiente delectus",
+        "title": "Et harum quidem rerum facilis est et expedita",
+        "text": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus."
       }
     ]
   },
@@ -290,35 +305,64 @@
     "title": "Opinion Articles",
     "cards": [
       {
+        "id": "1",
         "image": "TODO",
         "subject": "",
         "text": "GI products such as figs, pepper and olive oil grow under cooperation between the EU and Africa",
         "avatar": { "image": "TODO", "name": "Inês Monteiro Alves" },
-        "button": "Opinion Article",
+        "button": "opinionArticle",
         "place": "",
         "start": "TODO",
         "end": ""
       },
       {
+        "id": "2",
         "image": "TODO",
         "subject": "",
         "text": "Influencers and Brand Defamation",
         "avatar": { "image": "TODO", "name": "Rute Franco" },
-        "button": "Opinion Article",
+        "button": "opinionArticle",
         "place": "",
         "start": "TODO",
         "end": ""
       },
       {
+        "id": "3",
         "image": "TODO",
         "subject": "",
         "text": "Influencers and Brand Defamation",
         "avatar": { "image": "TODO", "name": "Rute Franco" },
-        "button": "Opinion Article",
+        "button": "opinionArticle",
         "place": "",
         "start": "TODO",
+        "end": ""
+      },
+      {
+        "id": "4",
+        "image": "",
+        "subject": "",
+        "text": "",
+        "avatar": { "image": "", "name": "" },
+        "place": "",
+        "start": "",
+        "end": ""
+      },
+      {
+        "id": "5",
+        "image": "",
+        "subject": "",
+        "text": "",
+        "avatar": { "image": "", "name": "" },
+        "place": "",
+        "start": "",
         "end": ""
       }
     ]
+  },
+  "buttons": {
+    "readMore": "Read More",
+    "caseStudy": "Case Study",
+    "pressRelease": "Press Release",
+    "opinionArticle": "Opinion Article"
   }
 }
