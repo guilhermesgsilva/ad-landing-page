@@ -1,0 +1,12 @@
+@use "../../../theme/palette";
+
+.nav__menu__wrapper {
+  position: relative;
+}
+
+.nav__menu {
+  position: absolute;
+  width: 100vw;
+  background-color: palette.$white;
+  z-index: 1;
+}

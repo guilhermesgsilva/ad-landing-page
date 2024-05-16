@@ -1,9 +1,9 @@
 @use "../../theme/palette";
 @use "../../theme/spacing";
 
-header {
-  position: absolute;
-  display: contents;
+@mixin list_item_active() {
+  height: spacing.$unit1_75;
+  border-bottom: spacing.$unit0_25 solid palette.$blue;
 }
 
 .nav__list {
@@ -18,17 +18,22 @@ header {
 
   li {
     margin-right: spacing.$unit1;
+    position: relative;
   }
 
   a {
     display: block;
-    color: palette.$blue-dark;
+    color: palette.$blue_dark;
     height: spacing.$unit2;
 
     &:hover {
-      height: spacing.$unit1_75;
-      border-bottom: spacing.$unit0_25 solid palette.$blue;
       color: palette.$blue;
     }
   }
 }
+
+.list__item--active {
+  height: spacing.$unit1_75;
+  border-bottom: spacing.$unit0_25 solid palette.$blue;
+}
+
