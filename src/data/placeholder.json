@@ -5,87 +5,59 @@
         "id": "1",
         "title": "Expertise",
         "links": [
-          { "id": "1", "title": "" },
-          { "id": "2", "title": "" },
-          { "id": "3", "title": "" },
-          { "id": "4", "title": "" },
-          { "id": "5", "title": "" },
-          { "id": "6", "title": "" }
+          { "id": "1", "title": "Our Services" },
+          { "id": "2", "title": "Industry Focus" },
+          { "id": "3", "title": "Case Studies" },
+          { "id": "4", "title": "Research" },
+          { "id": "5", "title": "Publications" },
+          { "id": "6", "title": "Insights" }
         ],
-        "cards": [
-          {
-            "id": "1",
-            "image": "",
-            "subject": "",
-            "text": "",
-            "avatar": { "image": "", "name": "" },
-            "place": "",
-            "start": "",
-            "end": ""
-          },
-          {
-            "id": "2",
-            "image": "",
-            "subject": "",
-            "text": "",
-            "avatar": { "image": "", "name": "" },
-            "place": "",
-            "start": "",
-            "end": ""
-          },
-          {
-            "id": "3",
-            "image": "",
-            "subject": "",
-            "text": "",
-            "avatar": { "image": "", "name": "" },
-            "place": "",
-            "start": "",
-            "end": ""
-          }
-        ]
+        "cards": []
       },
       {
         "id": "2",
         "title": "Jurisdictions",
         "links": [
-          { "id": "1", "title": "" },
-          { "id": "2", "title": "" },
-          { "id": "3", "title": "" },
-          { "id": "4", "title": "" },
-          { "id": "5", "title": "" },
-          { "id": "6", "title": "" }
+          { "id": "1", "title": "North America" },
+          { "id": "2", "title": "Europe" },
+          { "id": "3", "title": "Asia-Pacific" },
+          { "id": "4", "title": "Middle East" },
+          { "id": "5", "title": "Africa" },
+          { "id": "6", "title": "Latin America" }
         ],
         "cards": [
           {
             "id": "1",
             "image": "",
-            "subject": "",
-            "text": "",
-            "avatar": { "image": "", "name": "" },
-            "place": "",
-            "start": "",
-            "end": ""
+            "subject": "US Market",
+            "text": "Navigating the legal landscape in the United States",
+            "avatar": { "image": "", "name": "Legal Expert Amy" },
+            "button": "caseStudy",
+            "place": "Washington, D.C.",
+            "start": "2024/07/01",
+            "end": "2024/07/30"
           },
           {
             "id": "2",
             "image": "",
-            "subject": "",
-            "text": "",
-            "avatar": { "image": "", "name": "" },
-            "place": "",
-            "start": "",
-            "end": ""
+            "subject": "EU Regulations",
+            "text": "Understanding regulatory changes in the European Union",
+            "avatar": { "image": "", "name": "Analyst Dr. Emily Clark" },
+            "button": "publication",
+            "place": "Brussels",
+            "start": "2024/02/07",
+            "end": "2024/04/12"
           },
           {
             "id": "3",
             "image": "",
-            "subject": "",
-            "text": "",
-            "avatar": { "image": "", "name": "" },
-            "place": "",
-            "start": "",
-            "end": ""
+            "subject": "Asia-Pacific Trade",
+            "text": "Opportunities and challenges in the Asia-Pacific region",
+            "avatar": { "image": "", "name": "Trade Specialist Sarah" },
+            "button": "caseStudy",
+            "place": "Singapore",
+            "start": "2024/09/03",
+            "end": "2024/09/22"
           }
         ]
       },
@@ -93,43 +65,35 @@
         "id": "3",
         "title": "Team",
         "links": [
-          { "id": "1", "title": "" },
-          { "id": "2", "title": "" },
-          { "id": "3", "title": "" },
-          { "id": "4", "title": "" },
-          { "id": "5", "title": "" },
-          { "id": "6", "title": "" }
+          { "id": "1", "title": "Leadership" },
+          { "id": "2", "title": "Partners" },
+          { "id": "3", "title": "Associates" },
+          { "id": "4", "title": "Advisors" },
+          { "id": "5", "title": "Support Staff" },
+          { "id": "6", "title": "Careers" }
         ],
         "cards": [
           {
             "id": "1",
             "image": "",
-            "subject": "",
-            "text": "",
-            "avatar": { "image": "", "name": "" },
-            "place": "",
-            "start": "",
-            "end": ""
+            "subject": "Executive Team",
+            "text": "Meet our executive leadership team",
+            "avatar": { "image": "", "name": "CEO Joe" },
+            "button": "profile",
+            "place": "New York",
+            "start": "2024/11/05",
+            "end": "2024/11/30"
           },
           {
             "id": "2",
             "image": "",
-            "subject": "",
-            "text": "",
-            "avatar": { "image": "", "name": "" },
-            "place": "",
-            "start": "",
-            "end": ""
-          },
-          {
-            "id": "3",
-            "image": "",
-            "subject": "",
-            "text": "",
-            "avatar": { "image": "", "name": "" },
-            "place": "",
-            "start": "",
-            "end": ""
+            "subject": "Partners",
+            "text": "Our partners are leaders in their fields",
+            "avatar": { "image": "", "name": "Partner Mike" },
+            "button": "profile",
+            "place": "London",
+            "start": "2024/01/03",
+            "end": "2024/01/27"
           }
         ]
       },
@@ -175,8 +139,8 @@
             "avatar": { "image": "TODO", "name": "Rute Franco" },
             "button": "pressRelease",
             "place": "Póvoa de Santa Iria",
-            "start": "TODO",
-            "end": "TODO"
+            "start": "2024/07/12",
+            "end": "2024/07/13"
           }
         ]
       },
@@ -184,46 +148,23 @@
         "id": "5",
         "title": "About Us",
         "links": [
-          { "id": "1", "title": "" },
-          { "id": "2", "title": "" },
-          { "id": "3", "title": "" },
-          { "id": "4", "title": "" },
-          { "id": "5", "title": "" },
-          { "id": "6", "title": "" }
+          { "id": "1", "title": "Our Story" },
+          { "id": "2", "title": "History" },
+          { "id": "3", "title": "Values" },
+          { "id": "4", "title": "Leadership" },
+          { "id": "5", "title": "Awards" }
         ],
         "cards": [
           {
-            "id": "1",
-            "image": "",
-            "subject": "",
-            "text": "",
-            "avatar": { "image": "", "name": "" },
-
-            "place": "",
-            "start": "",
-            "end": ""
-          },
-          {
             "id": "2",
             "image": "",
-            "subject": "",
-            "text": "",
-            "avatar": { "image": "", "name": "" },
-
-            "place": "",
-            "start": "",
-            "end": ""
-          },
-          {
-            "id": "3",
-            "image": "",
-            "subject": "",
-            "text": "",
-            "avatar": { "image": "", "name": "" },
-
-            "place": "",
-            "start": "",
-            "end": ""
+            "subject": "Mission & Vision",
+            "text": "Our commitment to innovation and excellence",
+            "avatar": { "image": "", "name": "CEO Jane" },
+            "button": "pressRelease",
+            "place": "San Francisco",
+            "start": "2024/04/05",
+            "end": "2024/05/25"
           }
         ]
       },
@@ -231,47 +172,10 @@
         "id": "6",
         "title": "Contacts",
         "links": [
-          { "id": "1", "title": "" },
-          { "id": "2", "title": "" },
-          { "id": "3", "title": "" },
-          { "id": "4", "title": "" },
-          { "id": "5", "title": "" },
-          { "id": "6", "title": "" }
-        ],
-        "cards": [
-          {
-            "id": "1",
-            "image": "",
-            "subject": "",
-            "text": "",
-            "avatar": { "image": "", "name": "" },
-
-            "place": "",
-            "start": "",
-            "end": ""
-          },
-          {
-            "id": "2",
-            "image": "",
-            "subject": "",
-            "text": "",
-            "avatar": { "image": "", "name": "" },
-
-            "place": "",
-            "start": "",
-            "end": ""
-          },
-          {
-            "id": "3",
-            "image": "",
-            "subject": "",
-            "text": "",
-            "avatar": { "image": "", "name": "" },
-
-            "place": "",
-            "start": "",
-            "end": ""
-          }
+          { "id": "1", "title": "Offices" },
+          { "id": "2", "title": "Support" },
+          { "id": "3", "title": "Media Inquiries" },
+          { "id": "4", "title": "General Inquiries" }
         ]
       }
     ]
@@ -312,7 +216,7 @@
         "avatar": { "image": "TODO", "name": "Inês Monteiro Alves" },
         "button": "opinionArticle",
         "place": "",
-        "start": "TODO",
+        "start": "2024/07/12",
         "end": ""
       },
       {
@@ -323,7 +227,7 @@
         "avatar": { "image": "TODO", "name": "Rute Franco" },
         "button": "opinionArticle",
         "place": "",
-        "start": "TODO",
+        "start": "2024/07/12",
         "end": ""
       },
       {
@@ -334,28 +238,63 @@
         "avatar": { "image": "TODO", "name": "Rute Franco" },
         "button": "opinionArticle",
         "place": "",
-        "start": "TODO",
+        "start": "2024/07/12",
         "end": ""
       },
       {
         "id": "4",
         "image": "",
-        "subject": "",
-        "text": "",
-        "avatar": { "image": "", "name": "" },
-        "place": "",
-        "start": "",
-        "end": ""
+        "subject": "Intellectual Property",
+        "text": "Comprehensive IP services tailored to your needs",
+        "avatar": { "image": "", "name": "IP Expert John Doe" },
+        "button": "caseStudy",
+        "place": "San Francisco",
+        "start": "2024/03/14",
+        "end": "2024/04/28"
       },
       {
         "id": "5",
         "image": "",
-        "subject": "",
-        "text": "",
-        "avatar": { "image": "", "name": "" },
-        "place": "",
-        "start": "",
-        "end": ""
+        "subject": "AI Innovations",
+        "text": "Leveraging AI to protect and manage your IP",
+        "avatar": { "image": "", "name": "AI Specialist Jane Smith" },
+        "button": "publication",
+        "place": "Las Vegas",
+        "start": "2024/02/25",
+        "end": "2024/05/02"
+      },
+      {
+        "id": "6",
+        "image": "",
+        "subject": "Tech Patents",
+        "text": "Navigating the complex world of tech patents",
+        "avatar": { "image": "", "name": "Patent Lawyer Mark Johnson" },
+        "button": "publication",
+        "place": "New York",
+        "start": "2024/06/26",
+        "end": "2024/07/21"
+      },
+      {
+        "id": "7",
+        "image": "",
+        "subject": "US Market",
+        "text": "Navigating the legal landscape in the United States",
+        "avatar": { "image": "", "name": "Legal Expert Amy" },
+        "button": "caseStudy",
+        "place": "Washington, D.C.",
+        "start": "2024/07/01",
+        "end": "2024/07/30"
+      },
+      {
+        "id": "8",
+        "image": "",
+        "subject": "Asia-Pacific Trade",
+        "text": "Opportunities and challenges in the Asia-Pacific region",
+        "avatar": { "image": "", "name": "Trade Specialist Sarah" },
+        "button": "caseStudy",
+        "place": "Singapore",
+        "start": "2024/09/03",
+        "end": "2024/09/22"
       }
     ]
   },
@@ -363,6 +302,8 @@
     "readMore": "Read More",
     "caseStudy": "Case Study",
     "pressRelease": "Press Release",
-    "opinionArticle": "Opinion Article"
+    "opinionArticle": "Opinion Article",
+    "publication": "Publication",
+    "profile": "Profile"
   }
 }

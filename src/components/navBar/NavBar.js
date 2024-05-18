@@ -10,7 +10,7 @@ function NavBar() {
   const [active, setActive] = useState(false);
   const [content, setContent] = useState({});
 
-  const links = placeholder.navigation.links;
+  const navLinks = placeholder.navigation.links;
 
   return (
     <header
@@ -19,11 +19,11 @@ function NavBar() {
     >
       <nav>
         <ul className="nav__list">
-          {links.map((item) => {
+          {navLinks?.map((item) => {
             return (
               <li
                 className={
-                  active && content.id === item.id && "list__item--active"
+                  active && content.id === item.id ? "list__item--active" : ""
                 }
                 key={item.id}
                 onMouseEnter={() => setContent(item)}

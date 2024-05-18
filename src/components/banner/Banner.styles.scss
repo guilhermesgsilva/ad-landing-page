@@ -1,13 +1,12 @@
 @use "../../theme/spacing";
 @use "../../theme/palette";
 @use "../../theme/typography";
+@use "../../theme/layer";
 
 .banner {
   * {
     max-height: spacing.$unit30;
   }
-
-  clip-path: ellipse(100% 100% at 15% 7.5%);
 }
 
 .banner__slide {
@@ -17,10 +16,9 @@
   color: palette.$white;
 
   div {
-    z-index: 1;
     position: absolute;
     width: 50%;
-    padding: 0 spacing.$unit2 spacing.$unit3;
+    @include spacing.padding_content();
 
     * {
       margin: spacing.$none;

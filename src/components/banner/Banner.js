@@ -27,6 +27,7 @@ function Banner() {
                 <HiArrowLongRight />
               </a>
             </div>
+
             <img src={item.image} alt={item.title} />
           </div>
         ),

@@ -1,4 +1,5 @@
 @use "../../../theme/palette";
+@use "../../../theme/spacing";
 
 .nav__menu__wrapper {
   position: relative;
@@ -8,5 +9,12 @@
   position: absolute;
   width: 100vw;
   background-color: palette.$grey;
-  z-index: 1;
+  @include spacing.padding_content();
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0;
+    gap: spacing.$unit1_5;
+  }
 }

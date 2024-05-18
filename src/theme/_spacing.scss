@@ -10,3 +10,12 @@ $unit2: $space-unit * 2;
 $unit3: $space-unit * 3;
 $unit5_5: $space-unit * 5.5;
 $unit30: $space-unit * 30;
+
+@mixin padding_content(
+  $padding_top: $unit2,
+  $padding_right: $unit2,
+  $padding_bottom: $unit3,
+  $padding_left: $unit2
+) {
+  padding: $padding_top $padding_right $padding_bottom $padding_left;
+}
