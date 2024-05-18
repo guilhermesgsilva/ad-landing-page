@@ -12,6 +12,7 @@ function Banner() {
   const buttons = placeholder.buttons;
 
   const { carouselFragment } = useSpringCarousel({
+    draggable: "false",
     withLoop: true,
     items: slides.map((item) => {
       return {
@@ -28,7 +29,7 @@ function Banner() {
               </a>
             </div>
 
-            <img src={item.image} alt={item.title} />
+            <img src={item.image} alt={item.title} draggable="false" />
           </div>
         ),
       };
