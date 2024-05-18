@@ -1,6 +1,28 @@
+// data
+import placeholder from "../../data/placeholder.json";
+
+// styles
+import "./Carousel.styles.scss";
+
+// components
+import Card from "../card/Card";
+
 function Carousel() {
-    return <section>Carousel</section>;
+  const title = placeholder.carousel.title;
+  const cards = placeholder.carousel.cards;
+
+  if (!cards.length) {
+    return null;
   }
-  
-  export default Carousel;
-  
+
+  return (
+    <section className="carousel__wrapper">
+      <h2>{title}</h2>
+      <div className="carousel">
+        <Card data={cards[0]} />
+      </div>
+    </section>
+  );
+}
+
+export default Carousel;

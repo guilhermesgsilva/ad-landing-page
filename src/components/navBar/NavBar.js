@@ -1,9 +1,13 @@
+// libraries
 import { useState } from "react";
 
+// data
 import placeholder from "../../data/placeholder.json";
 
+// styles
 import "./NavBar.styles.scss";
 
+// components
 import NavMenu from "./navMenu/NavMenu";
 
 function NavBar() {

@@ -1,0 +1,16 @@
+@use "../../theme/spacing";
+
+.carousel__wrapper {
+  @include spacing.padding_content();
+
+  h2 {
+    margin-top: spacing.$none;
+    margin-bottom: spacing.$unit1_5;
+  }
+
+  /* & > div {
+    overflow-x: hidden;
+  } */
+}
+
+

@@ -1,10 +1,11 @@
+// libraries
 import { useSpringCarousel } from "react-spring-carousel";
 import { HiArrowLongRight } from "react-icons/hi2";
-/* import { IoLocationOutline } from "react-icons/io5"; */
-/* import { LuClock4 } from "react-icons/lu"; */
 
+// data
 import placeholder from "../../data/placeholder.json";
 
+// styles
 import "./Banner.styles.scss";
 
 function Banner() {

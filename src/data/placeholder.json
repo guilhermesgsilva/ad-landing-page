@@ -33,7 +33,7 @@
             "text": "Navigating the legal landscape in the United States",
             "avatar": { "image": "", "name": "Legal Expert Amy" },
             "button": "caseStudy",
-            "place": "Washington, D.C.",
+            "location": "Washington, D.C.",
             "start": "2024/07/01",
             "end": "2024/07/30"
           },
@@ -44,7 +44,7 @@
             "text": "Understanding regulatory changes in the European Union",
             "avatar": { "image": "", "name": "Analyst Dr. Emily Clark" },
             "button": "publication",
-            "place": "Brussels",
+            "location": "Brussels",
             "start": "2024/02/07",
             "end": "2024/04/12"
           },
@@ -55,7 +55,7 @@
             "text": "Opportunities and challenges in the Asia-Pacific region",
             "avatar": { "image": "", "name": "Trade Specialist Sarah" },
             "button": "caseStudy",
-            "place": "Singapore",
+            "location": "Singapore",
             "start": "2024/09/03",
             "end": "2024/09/22"
           }
@@ -80,7 +80,7 @@
             "text": "Meet our executive leadership team",
             "avatar": { "image": "", "name": "CEO Joe" },
             "button": "profile",
-            "place": "New York",
+            "location": "New York",
             "start": "2024/11/05",
             "end": "2024/11/30"
           },
@@ -91,7 +91,7 @@
             "text": "Our partners are leaders in their fields",
             "avatar": { "image": "", "name": "Partner Mike" },
             "button": "profile",
-            "place": "London",
+            "location": "London",
             "start": "2024/01/03",
             "end": "2024/01/27"
           }
@@ -116,7 +116,7 @@
             "text": "GI products such as figs, pepper and olive oil grow under cooperation between the EU and Africa",
             "avatar": { "image": "", "name": "" },
             "button": "caseStudy",
-            "place": "",
+            "location": "",
             "start": "",
             "end": ""
           },
@@ -127,7 +127,7 @@
             "text": "The Legal 500: Intellectual Property Comparative Guide - Portugal",
             "avatar": { "image": "", "name": "" },
             "button": "pressRelease",
-            "place": "",
+            "location": "",
             "start": "",
             "end": ""
           },
@@ -138,7 +138,7 @@
             "text": "58th Edition FACIM - Maputo's International Trade Fair",
             "avatar": { "image": "TODO", "name": "Rute Franco" },
             "button": "pressRelease",
-            "place": "Póvoa de Santa Iria",
+            "location": "Póvoa de Santa Iria",
             "start": "2024/07/12",
             "end": "2024/07/13"
           }
@@ -162,7 +162,7 @@
             "text": "Our commitment to innovation and excellence",
             "avatar": { "image": "", "name": "CEO Jane" },
             "button": "pressRelease",
-            "place": "San Francisco",
+            "location": "San Francisco",
             "start": "2024/04/05",
             "end": "2024/05/25"
           }
@@ -211,91 +211,68 @@
       {
         "id": "1",
         "image": "TODO",
-        "subject": "",
         "text": "GI products such as figs, pepper and olive oil grow under cooperation between the EU and Africa",
         "avatar": { "image": "TODO", "name": "Inês Monteiro Alves" },
         "button": "opinionArticle",
-        "place": "",
-        "start": "2024/07/12",
-        "end": ""
+        "start": "2024/07/12"
       },
       {
         "id": "2",
         "image": "TODO",
-        "subject": "",
         "text": "Influencers and Brand Defamation",
         "avatar": { "image": "TODO", "name": "Rute Franco" },
         "button": "opinionArticle",
-        "place": "",
-        "start": "2024/07/12",
-        "end": ""
+        "start": "2024/07/12"
       },
       {
         "id": "3",
         "image": "TODO",
-        "subject": "",
-        "text": "Influencers and Brand Defamation",
-        "avatar": { "image": "TODO", "name": "Rute Franco" },
-        "button": "opinionArticle",
-        "place": "",
-        "start": "2024/07/12",
-        "end": ""
+        "text": "How innovation is driving changes in intellectual property law",
+        "avatar": { "image": "TODO", "name": "David Wilson" },
+        "button": "insight",
+        "start": "2024/10/01"
       },
       {
         "id": "4",
-        "image": "",
-        "subject": "Intellectual Property",
-        "text": "Comprehensive IP services tailored to your needs",
-        "avatar": { "image": "", "name": "IP Expert John Doe" },
+        "image": "TODO",
+        "text": "The complexities of modern trademark infringement cases",
+        "avatar": { "image": "TODO", "name": "John Doe" },
         "button": "caseStudy",
-        "place": "San Francisco",
-        "start": "2024/03/14",
-        "end": "2024/04/28"
+        "start": "2024/02/18"
       },
       {
         "id": "5",
-        "image": "",
-        "subject": "AI Innovations",
-        "text": "Leveraging AI to protect and manage your IP",
-        "avatar": { "image": "", "name": "AI Specialist Jane Smith" },
-        "button": "publication",
-        "place": "Las Vegas",
-        "start": "2024/02/25",
-        "end": "2024/05/02"
+        "image": "TODO",
+        "text": "Strategies for successful patent litigation",
+        "avatar": { "image": "TODO", "name": "Jane Smith" },
+        "button": "pressRelease",
+        "start": "2024/03/03"
       },
       {
         "id": "6",
-        "image": "",
-        "subject": "Tech Patents",
-        "text": "Navigating the complex world of tech patents",
-        "avatar": { "image": "", "name": "Patent Lawyer Mark Johnson" },
-        "button": "publication",
-        "place": "New York",
-        "start": "2024/06/26",
-        "end": "2024/07/21"
+        "image": "TODO",
+        "text": "Updates on recent changes in copyright law",
+        "avatar": { "image": "TODO", "name": "Emily Johnson" },
+        "button": "announcement",
+        "start": "2024/05/02"
       },
       {
         "id": "7",
-        "image": "",
-        "subject": "US Market",
-        "text": "Navigating the legal landscape in the United States",
-        "avatar": { "image": "", "name": "Legal Expert Amy" },
-        "button": "caseStudy",
-        "place": "Washington, D.C.",
-        "start": "2024/07/01",
-        "end": "2024/07/30"
+        "image": "TODO",
+        "text": "How digital transformation is affecting intellectual property",
+        "avatar": { "image": "TODO", "name": "Michael Brown" },
+        "button": "opinionArticle",
+        "start": "2024/06/07"
       },
       {
         "id": "8",
-        "image": "",
-        "subject": "Asia-Pacific Trade",
-        "text": "Opportunities and challenges in the Asia-Pacific region",
-        "avatar": { "image": "", "name": "Trade Specialist Sarah" },
+        "image": "TODO",
+        "text": "The impact of IP on international trade agreements",
+        "avatar": { "image": "TODO", "name": "Sarah Davis" },
         "button": "caseStudy",
-        "place": "Singapore",
-        "start": "2024/09/03",
-        "end": "2024/09/22"
+        "start": "2024/09/11"
       }
+      
     ]
   },
   "buttons": {

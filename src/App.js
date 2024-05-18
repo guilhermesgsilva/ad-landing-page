@@ -1,7 +1,10 @@
+// styles
 import "./App.scss";
 
+// pages
 import Home from "./pages/home/Home.js";
 
+// components
 import NavBar from "./components/navBar/NavBar.js";
 
 /* https://dev.to/madza/15-useful-placeholder-tools-for-designers-and-developers-4m7n */

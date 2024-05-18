@@ -1,3 +1,4 @@
+// styles
 import "./NavMenu.styles.scss";
 
 function NavMenu({ content }) {

@@ -1,0 +1,22 @@
+@use "../../theme/spacing";
+@use "../../theme/palette";
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.07);
+  position: relative;
+  width: spacing.$unit23_5;
+  height: spacing.$unit8_5;
+  display: flex;
+}
+
+.card__marker {
+  width: spacing.$unit6;
+  background-color: pink;
+}
+
+.card__content {
+  * {
+    margin: spacing.$none;
+  }
+}
