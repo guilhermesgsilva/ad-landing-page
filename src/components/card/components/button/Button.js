@@ -1,8 +1,17 @@
 // styles
 import "./Button.styles.scss";
 
-function Button() {
-  return <button>Button</button>;
+function Button({ title }) {
+  return (
+    <button
+      className="button"
+      onClick={() => {
+        console.log("Go to article");
+      }}
+    >
+      {title}
+    </button>
+  );
 }
 
 export default Button;

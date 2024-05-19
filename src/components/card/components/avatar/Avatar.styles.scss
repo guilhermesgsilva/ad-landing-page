@@ -1,0 +1,17 @@
+@use "../../../../theme/spacing";
+@use "../../../../theme/typography";
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: spacing.$unit0_25;
+
+  img {
+    border-radius: 100%;
+    height: spacing.$unit1_3;
+  }
+
+  p {
+    @include typography.font($size: typography.$font_size_xxs);
+  }
+}

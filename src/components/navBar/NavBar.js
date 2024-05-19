@@ -8,13 +8,15 @@ import placeholder from "../../data/placeholder.json";
 import "./NavBar.styles.scss";
 
 // components
-import NavMenu from "./navMenu/NavMenu";
+import NavMenu from "./components/navMenu/NavMenu";
 
 function NavBar() {
   const [active, setActive] = useState(false);
   const [content, setContent] = useState({});
 
-  const navLinks = placeholder.navigation.links;
+  const {
+    navigation: { links },
+  } = placeholder;
 
   return (
     <header
@@ -23,7 +25,7 @@ function NavBar() {
     >
       <nav>
         <ul className="nav__list">
-          {navLinks?.map((item) => {
+          {links?.map((item) => {
             return (
               <li
                 className={

@@ -6,10 +6,18 @@
 import "./Label.styles.scss";
 
 // components
-/* import Button from "../button/Button"; */
+import Button from "../button/Button";
 
-function Label() {
-  return <div>Label</div>;
+// utils
+import { formatDate } from "../../../../utils/formatDate";
+
+function Label({ button, location, start }) {
+  return (
+    <div className="label">
+      <Button title={button} />
+      <p className="date">{formatDate(start, "d MMMM yyyy")}</p>
+    </div>
+  );
 }
 
 export default Label;

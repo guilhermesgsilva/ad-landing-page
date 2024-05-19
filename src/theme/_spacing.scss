@@ -1,9 +1,12 @@
 $space-unit: 18px;
 
 $none: 0;
-$unit0_25: $space-unit / 4;
-$unit0_5: $space-unit / 2;
+$unit0_25: $space-unit * 0.25;
+$unit0_5: $space-unit * 0.5;
+$unit0_75: $space-unit * 0.75;
 $unit1: $space-unit;
+$unit1_25: $space-unit * 1.25;
+$unit1_3: $space-unit * 1.3;
 $unit1_5: $space-unit * 1.5;
 $unit1_75: $space-unit * 1.75;
 $unit2: $space-unit * 2;

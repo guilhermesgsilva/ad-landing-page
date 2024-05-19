@@ -8,8 +8,9 @@ import "./Carousel.styles.scss";
 import Card from "../card/Card";
 
 function Carousel() {
-  const title = placeholder.carousel.title;
-  const cards = placeholder.carousel.cards;
+  const {
+    carousel: { title, cards },
+  } = placeholder;
 
   if (!cards.length) {
     return null;

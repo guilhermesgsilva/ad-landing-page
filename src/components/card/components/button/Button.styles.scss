@@ -1,0 +1,20 @@
+@use "../../../../theme/palette";
+@use "../../../../theme/typography";
+
+.button {
+  background-color: palette.$white;
+  color: palette.$blue_dark;
+  border: 1px solid palette.$blue_dark;
+  border-radius: 100px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: palette.$blue_dark;
+    color: palette.$white;
+  }
+
+  &:active {
+    background-color: palette.$blue;
+    border: 1px solid palette.$blue;
+  }
+}

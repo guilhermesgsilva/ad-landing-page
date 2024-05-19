@@ -210,69 +210,71 @@
     "cards": [
       {
         "id": "1",
-        "image": "TODO",
+        "image": "https://picsum.photos/id/75/500/300",
         "text": "GI products such as figs, pepper and olive oil grow under cooperation between the EU and Africa",
-        "avatar": { "image": "TODO", "name": "Inês Monteiro Alves" },
+        "avatar": {
+          "image": "https://randomuser.me/api/portraits/thumb/women/1.jpg",
+          "name": "Inês Monteiro Alves"
+        },
         "button": "opinionArticle",
         "start": "2024/07/12"
       },
       {
         "id": "2",
-        "image": "TODO",
+        "image": "https://picsum.photos/id/20/500/300",
         "text": "Influencers and Brand Defamation",
-        "avatar": { "image": "TODO", "name": "Rute Franco" },
+        "avatar": { "image": "https://randomuser.me/api/portraits/thumb/women/2.jpg", "name": "Rute Franco" },
         "button": "opinionArticle",
         "start": "2024/07/12"
       },
       {
         "id": "3",
-        "image": "TODO",
+        "image": "https://picsum.photos/id/36/500/300",
         "text": "How innovation is driving changes in intellectual property law",
-        "avatar": { "image": "TODO", "name": "David Wilson" },
+        "avatar": { "image": "https://randomuser.me/api/portraits/thumb/men/1.jpg", "name": "David Wilson" },
         "button": "insight",
         "start": "2024/10/01"
       },
       {
         "id": "4",
-        "image": "TODO",
+        "image": "https://picsum.photos/id/22/500/300",
         "text": "The complexities of modern trademark infringement cases",
-        "avatar": { "image": "TODO", "name": "John Doe" },
+        "avatar": { "image": "https://randomuser.me/api/portraits/thumb/men/2.jpg", "name": "John Doe" },
         "button": "caseStudy",
         "start": "2024/02/18"
       },
       {
         "id": "5",
-        "image": "TODO",
+        "image": "https://picsum.photos/id/101/500/300",
         "text": "Strategies for successful patent litigation",
-        "avatar": { "image": "TODO", "name": "Jane Smith" },
+        "avatar": { "image": "https://randomuser.me/api/portraits/thumb/women/3.jpg", "name": "Jane Smith" },
         "button": "pressRelease",
         "start": "2024/03/03"
       },
       {
         "id": "6",
-        "image": "TODO",
+        "image": "https://picsum.photos/id/145/500/300",
         "text": "Updates on recent changes in copyright law",
-        "avatar": { "image": "TODO", "name": "Emily Johnson" },
+        "avatar": { "image": "https://randomuser.me/api/portraits/thumb/women/4.jpg", "name": "Emily Johnson" },
         "button": "announcement",
         "start": "2024/05/02"
       },
       {
         "id": "7",
-        "image": "TODO",
+        "image": "https://picsum.photos/id/117/500/300",
         "text": "How digital transformation is affecting intellectual property",
-        "avatar": { "image": "TODO", "name": "Michael Brown" },
+        "avatar": { "image": "https://randomuser.me/api/portraits/thumb/men/3.jpg", "name": "Michael Brown" },
         "button": "opinionArticle",
         "start": "2024/06/07"
       },
       {
         "id": "8",
-        "image": "TODO",
+        "image": "https://picsum.photos/id/88/500/300",
         "text": "The impact of IP on international trade agreements",
-        "avatar": { "image": "TODO", "name": "Sarah Davis" },
+        "avatar": { "image": "https://randomuser.me/api/portraits/thumb/women/5.jpg", "name": "Sarah Davis" },
         "button": "caseStudy",
         "start": "2024/09/11"
       }
-      
     ]
   },
   "buttons": {

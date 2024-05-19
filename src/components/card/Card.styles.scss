@@ -1,5 +1,6 @@
 @use "../../theme/spacing";
 @use "../../theme/palette";
+@use "../../theme/typography";
 
 .card {
   border-radius: 16px;
@@ -10,13 +11,29 @@
   display: flex;
 }
 
-.card__marker {
-  width: spacing.$unit6;
-  background-color: pink;
-}
-
 .card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: spacing.$unit0_75;
+
   * {
     margin: spacing.$none;
+  }
+}
+
+.card__content__top {
+  display: flex;
+  flex-direction: column;
+  gap: spacing.$unit0_5;
+
+  h4 {
+    @include typography.font();
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
   }
 }

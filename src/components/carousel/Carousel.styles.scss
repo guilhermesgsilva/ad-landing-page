@@ -1,4 +1,5 @@
 @use "../../theme/spacing";
+@use "../../theme/typography";
 
 .carousel__wrapper {
   @include spacing.padding_content();
@@ -6,11 +7,10 @@
   h2 {
     margin-top: spacing.$none;
     margin-bottom: spacing.$unit1_5;
+    @include typography.font($size: typography.$font_size_xl);
   }
 
-  /* & > div {
-    overflow-x: hidden;
-  } */
+  
 }
 
 

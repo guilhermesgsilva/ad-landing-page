@@ -9,8 +9,10 @@ import placeholder from "../../data/placeholder.json";
 import "./Banner.styles.scss";
 
 function Banner() {
-  const slides = placeholder.banner.slides;
-  const buttons = placeholder.buttons;
+  const {
+    banner: { slides },
+    buttons,
+  } = placeholder;
 
   const { carouselFragment } = useSpringCarousel({
     draggable: "false",

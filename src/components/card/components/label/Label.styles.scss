@@ -1,0 +1,12 @@
+@use "../../../../theme/typography";
+@use "../../../../theme/spacing";
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: spacing.$unit0_25;
+
+  * {
+    @include typography.font($size: typography.$font_size_xxs);
+  }
+}
