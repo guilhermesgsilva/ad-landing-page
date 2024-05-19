@@ -8,7 +8,7 @@ function Marker({ content, variant }) {
   return (
     <div className="marker">
       {variant === "image" ? <img src={content} alt={content} draggable="false" /> : <></>}
-      {variant === "date" ? <p>{formatDate(content)}</p> : <></>}
+      {variant === "date" ? <p>{formatDate(content, "d MMM")}</p> : <></>}
     </div>
   );
 }

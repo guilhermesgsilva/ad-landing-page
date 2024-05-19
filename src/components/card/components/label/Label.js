@@ -14,8 +14,12 @@ import { formatDate } from "../../../../utils/formatDate";
 function Label({ button, location, start }) {
   return (
     <div className="label">
-      <Button title={button} />
-      <p className="date">{formatDate(start, "d MMMM yyyy")}</p>
+      {button ? <Button title={button} /> : <></>}
+      {start ? (
+        <p className="date">{formatDate(start, "d MMMM yyyy")}</p>
+      ) : (
+        <></>
+      )}
     </div>
   );
 }

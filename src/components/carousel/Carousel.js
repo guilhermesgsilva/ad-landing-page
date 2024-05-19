@@ -16,8 +16,9 @@ function Carousel() {
   } = placeholder;
 
   const { carouselFragment } = useSpringCarousel({
+    slideType: 'fluid',
     itemsPerSlide: 3,
-    items: cards.map((item) => ({
+    items: cards?.map((item) => ({
       id: item.id,
       renderItem: <Card key={item.id} data={item} variant="opinionArticle" />,
     })),

@@ -24,41 +24,6 @@
           { "id": "4", "title": "Middle East" },
           { "id": "5", "title": "Africa" },
           { "id": "6", "title": "Latin America" }
-        ],
-        "cards": [
-          {
-            "id": "1",
-            "image": "",
-            "subject": "US Market",
-            "text": "Navigating the legal landscape in the United States",
-            "avatar": { "image": "", "name": "Legal Expert Amy" },
-            "button": "caseStudy",
-            "location": "Washington, D.C.",
-            "start": "2024/07/01",
-            "end": "2024/07/30"
-          },
-          {
-            "id": "2",
-            "image": "",
-            "subject": "EU Regulations",
-            "text": "Understanding regulatory changes in the European Union",
-            "avatar": { "image": "", "name": "Analyst Dr. Emily Clark" },
-            "button": "publication",
-            "location": "Brussels",
-            "start": "2024/02/07",
-            "end": "2024/04/12"
-          },
-          {
-            "id": "3",
-            "image": "",
-            "subject": "Asia-Pacific Trade",
-            "text": "Opportunities and challenges in the Asia-Pacific region",
-            "avatar": { "image": "", "name": "Trade Specialist Sarah" },
-            "button": "caseStudy",
-            "location": "Singapore",
-            "start": "2024/09/03",
-            "end": "2024/09/22"
-          }
         ]
       },
       {
@@ -71,30 +36,6 @@
           { "id": "4", "title": "Advisors" },
           { "id": "5", "title": "Support Staff" },
           { "id": "6", "title": "Careers" }
-        ],
-        "cards": [
-          {
-            "id": "1",
-            "image": "",
-            "subject": "Executive Team",
-            "text": "Meet our executive leadership team",
-            "avatar": { "image": "", "name": "CEO Joe" },
-            "button": "profile",
-            "location": "New York",
-            "start": "2024/11/05",
-            "end": "2024/11/30"
-          },
-          {
-            "id": "2",
-            "image": "",
-            "subject": "Partners",
-            "text": "Our partners are leaders in their fields",
-            "avatar": { "image": "", "name": "Partner Mike" },
-            "button": "profile",
-            "location": "London",
-            "start": "2024/01/03",
-            "end": "2024/01/27"
-          }
         ]
       },
       {
@@ -111,7 +52,7 @@
         "cards": [
           {
             "id": "1",
-            "image": "TODO",
+            "image": "https://picsum.photos/id/75/500/300",
             "subject": "",
             "text": "GI products such as figs, pepper and olive oil grow under cooperation between the EU and Africa",
             "avatar": { "image": "", "name": "" },
@@ -136,7 +77,7 @@
             "image": "",
             "subject": "",
             "text": "58th Edition FACIM - Maputo's International Trade Fair",
-            "avatar": { "image": "TODO", "name": "Rute Franco" },
+            "avatar": { "image": "https://randomuser.me/api/portraits/thumb/women/2.jpg", "name": "Rute Franco" },
             "button": "pressRelease",
             "location": "Póvoa de Santa Iria",
             "start": "2024/07/12",
@@ -153,19 +94,6 @@
           { "id": "3", "title": "Values" },
           { "id": "4", "title": "Leadership" },
           { "id": "5", "title": "Awards" }
-        ],
-        "cards": [
-          {
-            "id": "2",
-            "image": "",
-            "subject": "Mission & Vision",
-            "text": "Our commitment to innovation and excellence",
-            "avatar": { "image": "", "name": "CEO Jane" },
-            "button": "pressRelease",
-            "location": "San Francisco",
-            "start": "2024/04/05",
-            "end": "2024/05/25"
-          }
         ]
       },
       {
@@ -222,49 +150,70 @@
         "id": "2",
         "image": "https://picsum.photos/id/20/500/300",
         "text": "Influencers and Brand Defamation",
-        "avatar": { "image": "https://randomuser.me/api/portraits/thumb/women/2.jpg", "name": "Rute Franco" },
+        "avatar": {
+          "image": "https://randomuser.me/api/portraits/thumb/women/2.jpg",
+          "name": "Rute Franco"
+        },
         "start": "2024/07/12"
       },
       {
         "id": "3",
         "image": "https://picsum.photos/id/36/500/300",
         "text": "How innovation is driving changes in intellectual property law",
-        "avatar": { "image": "https://randomuser.me/api/portraits/thumb/men/1.jpg", "name": "David Wilson" },
+        "avatar": {
+          "image": "https://randomuser.me/api/portraits/thumb/men/1.jpg",
+          "name": "David Wilson"
+        },
         "start": "2024/10/01"
       },
       {
         "id": "4",
         "image": "https://picsum.photos/id/22/500/300",
         "text": "The complexities of modern trademark infringement cases",
-        "avatar": { "image": "https://randomuser.me/api/portraits/thumb/men/2.jpg", "name": "John Doe" },
+        "avatar": {
+          "image": "https://randomuser.me/api/portraits/thumb/men/2.jpg",
+          "name": "John Doe"
+        },
         "start": "2024/02/18"
       },
       {
         "id": "5",
         "image": "https://picsum.photos/id/101/500/300",
         "text": "Strategies for successful patent litigation",
-        "avatar": { "image": "https://randomuser.me/api/portraits/thumb/women/3.jpg", "name": "Jane Smith" },
+        "avatar": {
+          "image": "https://randomuser.me/api/portraits/thumb/women/3.jpg",
+          "name": "Jane Smith"
+        },
         "start": "2024/03/03"
       },
       {
         "id": "6",
         "image": "https://picsum.photos/id/145/500/300",
         "text": "Updates on recent changes in copyright law",
-        "avatar": { "image": "https://randomuser.me/api/portraits/thumb/women/4.jpg", "name": "Emily Johnson" },
+        "avatar": {
+          "image": "https://randomuser.me/api/portraits/thumb/women/4.jpg",
+          "name": "Emily Johnson"
+        },
         "start": "2024/05/02"
       },
       {
         "id": "7",
         "image": "https://picsum.photos/id/117/500/300",
         "text": "How digital transformation is affecting intellectual property",
-        "avatar": { "image": "https://randomuser.me/api/portraits/thumb/men/3.jpg", "name": "Michael Brown" },
+        "avatar": {
+          "image": "https://randomuser.me/api/portraits/thumb/men/3.jpg",
+          "name": "Michael Brown"
+        },
         "start": "2024/06/07"
       },
       {
         "id": "8",
         "image": "https://picsum.photos/id/88/500/300",
         "text": "The impact of IP on international trade agreements",
-        "avatar": { "image": "https://randomuser.me/api/portraits/thumb/women/5.jpg", "name": "Sarah Davis" },
+        "avatar": {
+          "image": "https://randomuser.me/api/portraits/thumb/women/5.jpg",
+          "name": "Sarah Davis"
+        },
         "start": "2024/09/11"
       }
     ]

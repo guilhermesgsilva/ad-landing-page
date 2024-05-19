@@ -13,23 +13,17 @@ import Label from "./components/label/Label";
 import Marker from "./components/marker/Marker";
 
 function Card({ variant, data }) {
-  const {
-    image,
-    start,
-    subject,
-    text,
-    avatar: { image: avatarImg, name },
-    button,
-    location,
-  } = data;
+  const { image, start, subject, text, avatar, button, location } = data;
 
   const { buttons } = placeholder;
 
   const buttonText = useMemo(() => {
     if (variant === "opinionArticle") {
       return buttons["opinionArticle"];
-    } else {
+    } else if (button) {
       return buttons[button];
+    } else {
+      return;
     }
   }, [button, buttons, variant]);
 
@@ -42,11 +36,15 @@ function Card({ variant, data }) {
       )}
       <div className="card__content">
         <div className="card__content__top">
-          {subject ? <h5>{subject.toUppercase()}</h5> : <></>}
+          {subject ? <h5>{subject.toUpperCase()}</h5> : <></>}
           {text ? <h4>{text}</h4> : <></>}
-          {avatarImg && name ? <Avatar image={avatarImg} name={name} /> : <></>}
+          {avatar?.image && avatar?.name ? (
+            <Avatar image={avatar.image} name={avatar.name} />
+          ) : (
+            <></>
+          )}
         </div>
-        {button || location || start ? (
+        {buttonText || location || start ? (
           <Label button={buttonText} location={location} start={start} />
         ) : (
           <></>
