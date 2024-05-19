@@ -7,7 +7,7 @@ import { formatDate } from "../../../../utils/formatDate";
 function Marker({ content, variant }) {
   return (
     <div className="marker">
-      {variant === "image" ? <img src={content} alt={content} /> : <></>}
+      {variant === "image" ? <img src={content} alt={content} draggable="false" /> : <></>}
       {variant === "date" ? <p>{formatDate(content)}</p> : <></>}
     </div>
   );

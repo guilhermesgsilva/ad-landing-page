@@ -1,3 +1,6 @@
+// libraries
+import { useMemo } from "react";
+
 // data
 import placeholder from "../../data/placeholder.json";
 
@@ -22,6 +25,14 @@ function Card({ variant, data }) {
 
   const { buttons } = placeholder;
 
+  const buttonText = useMemo(() => {
+    if (variant === "opinionArticle") {
+      return buttons["opinionArticle"];
+    } else {
+      return buttons[button];
+    }
+  }, [button, buttons, variant]);
+
   return (
     <div className="card">
       {image || start ? (
@@ -36,7 +47,7 @@ function Card({ variant, data }) {
           {avatarImg && name ? <Avatar image={avatarImg} name={name} /> : <></>}
         </div>
         {button || location || start ? (
-          <Label button={buttons[button]} location={location} start={start} />
+          <Label button={buttonText} location={location} start={start} />
         ) : (
           <></>
         )}

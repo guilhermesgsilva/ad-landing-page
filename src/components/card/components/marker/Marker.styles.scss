@@ -2,6 +2,7 @@
 
 .marker {
   min-width: spacing.$unit6;
+  max-width: spacing.$unit6;
   clip-path: circle(80% at 0 50%);
 
   img {

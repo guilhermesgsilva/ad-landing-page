@@ -2,15 +2,33 @@
 @use "../../theme/typography";
 
 .carousel__wrapper {
-  @include spacing.padding_content();
+  @include spacing.padding_content(
+    $padding_left: spacing.$none,
+    $padding_right: spacing.$none
+  );
 
   h2 {
+    @include spacing.padding_content(
+      $padding_top: spacing.$none,
+      $padding_bottom: spacing.$none
+    );
     margin-top: spacing.$none;
     margin-bottom: spacing.$unit1_5;
     @include typography.font($size: typography.$font_size_xl);
   }
-
-  
 }
 
+.carousel {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  @include spacing.padding_content(
+    $padding_top: spacing.$none,
+    $padding_bottom: spacing.$none
+  );
 
+  > div > div {
+    gap: 24px;
+    margin-right: spacing.$unit2;
+  }
+}

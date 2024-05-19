@@ -216,7 +216,6 @@
           "image": "https://randomuser.me/api/portraits/thumb/women/1.jpg",
           "name": "Inês Monteiro Alves"
         },
-        "button": "opinionArticle",
         "start": "2024/07/12"
       },
       {
@@ -224,7 +223,6 @@
         "image": "https://picsum.photos/id/20/500/300",
         "text": "Influencers and Brand Defamation",
         "avatar": { "image": "https://randomuser.me/api/portraits/thumb/women/2.jpg", "name": "Rute Franco" },
-        "button": "opinionArticle",
         "start": "2024/07/12"
       },
       {
@@ -232,7 +230,6 @@
         "image": "https://picsum.photos/id/36/500/300",
         "text": "How innovation is driving changes in intellectual property law",
         "avatar": { "image": "https://randomuser.me/api/portraits/thumb/men/1.jpg", "name": "David Wilson" },
-        "button": "insight",
         "start": "2024/10/01"
       },
       {
@@ -240,7 +237,6 @@
         "image": "https://picsum.photos/id/22/500/300",
         "text": "The complexities of modern trademark infringement cases",
         "avatar": { "image": "https://randomuser.me/api/portraits/thumb/men/2.jpg", "name": "John Doe" },
-        "button": "caseStudy",
         "start": "2024/02/18"
       },
       {
@@ -248,7 +244,6 @@
         "image": "https://picsum.photos/id/101/500/300",
         "text": "Strategies for successful patent litigation",
         "avatar": { "image": "https://randomuser.me/api/portraits/thumb/women/3.jpg", "name": "Jane Smith" },
-        "button": "pressRelease",
         "start": "2024/03/03"
       },
       {
@@ -256,7 +251,6 @@
         "image": "https://picsum.photos/id/145/500/300",
         "text": "Updates on recent changes in copyright law",
         "avatar": { "image": "https://randomuser.me/api/portraits/thumb/women/4.jpg", "name": "Emily Johnson" },
-        "button": "announcement",
         "start": "2024/05/02"
       },
       {
@@ -264,7 +258,6 @@
         "image": "https://picsum.photos/id/117/500/300",
         "text": "How digital transformation is affecting intellectual property",
         "avatar": { "image": "https://randomuser.me/api/portraits/thumb/men/3.jpg", "name": "Michael Brown" },
-        "button": "opinionArticle",
         "start": "2024/06/07"
       },
       {
@@ -272,7 +265,6 @@
         "image": "https://picsum.photos/id/88/500/300",
         "text": "The impact of IP on international trade agreements",
         "avatar": { "image": "https://randomuser.me/api/portraits/thumb/women/5.jpg", "name": "Sarah Davis" },
-        "button": "caseStudy",
         "start": "2024/09/11"
       }
     ]

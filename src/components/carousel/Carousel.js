@@ -1,3 +1,6 @@
+// libraries
+import { useSpringCarousel } from "react-spring-carousel";
+
 // data
 import placeholder from "../../data/placeholder.json";
 
@@ -12,6 +15,14 @@ function Carousel() {
     carousel: { title, cards },
   } = placeholder;
 
+  const { carouselFragment } = useSpringCarousel({
+    itemsPerSlide: 3,
+    items: cards.map((item) => ({
+      id: item.id,
+      renderItem: <Card key={item.id} data={item} variant="opinionArticle" />,
+    })),
+  });
+
   if (!cards.length) {
     return null;
   }
@@ -19,9 +30,7 @@ function Carousel() {
   return (
     <section className="carousel__wrapper">
       <h2>{title}</h2>
-      <div className="carousel">
-        <Card data={cards[0]} />
-      </div>
+      <div className="carousel">{carouselFragment}</div>
     </section>
   );
 }
