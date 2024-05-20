@@ -7,10 +7,14 @@
 
 .nav__menu {
   position: absolute;
-  width: 100vw;
   background-color: palette.$grey;
+  width: -webkit-fill-available;
   @include spacing.padding_content();
   clip-path: ellipse(100% 61% at 29% 39%);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
   ul {
     display: flex;
@@ -18,4 +22,15 @@
     padding-inline-start: 0;
     gap: spacing.$unit1_5;
   }
+}
+
+.nav__menu__cards {
+  display: flex;
+  gap: spacing.$unit1;
+}
+
+.nav__menu__small__cards {
+  display: flex;
+  flex-direction: column;
+  gap: spacing.$unit0_5;
 }

@@ -1,5 +1,5 @@
 // libraries
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 // data
 import placeholder from "../../data/placeholder.json";
@@ -11,17 +11,21 @@ import "./NavBar.styles.scss";
 import NavMenu from "./components/navMenu/NavMenu";
 
 function NavBar() {
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState(true);
   const [content, setContent] = useState({});
 
   const {
     navigation: { links },
   } = placeholder;
 
+  useEffect(() => {
+    setContent(links[3]);
+  }, [links]);
+
   return (
     <header
       onMouseEnter={() => setActive(true)}
-      onMouseLeave={() => setActive(false)}
+      // onMouseLeave={() => setActive(false)}
     >
       <nav>
         <ul className="nav__list">
@@ -32,7 +36,7 @@ function NavBar() {
                   active && content.id === item.id ? "list__item--active" : ""
                 }
                 key={item.id}
-                onMouseEnter={() => setContent(item)}
+                // onMouseEnter={() => setContent(item)}
               >
                 <a href="/">{item.title}</a>
               </li>

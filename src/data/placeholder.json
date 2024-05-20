@@ -48,41 +48,6 @@
           { "id": "4", "title": "Case Studies" },
           { "id": "5", "title": "Events" },
           { "id": "6", "title": "Insights" }
-        ],
-        "cards": [
-          {
-            "id": "1",
-            "image": "https://picsum.photos/id/75/500/300",
-            "subject": "",
-            "text": "GI products such as figs, pepper and olive oil grow under cooperation between the EU and Africa",
-            "avatar": { "image": "", "name": "" },
-            "button": "caseStudy",
-            "location": "",
-            "start": "",
-            "end": ""
-          },
-          {
-            "id": "2",
-            "image": "",
-            "subject": "Leaders League 2023",
-            "text": "The Legal 500: Intellectual Property Comparative Guide - Portugal",
-            "avatar": { "image": "", "name": "" },
-            "button": "pressRelease",
-            "location": "",
-            "start": "",
-            "end": ""
-          },
-          {
-            "id": "3",
-            "image": "",
-            "subject": "",
-            "text": "58th Edition FACIM - Maputo's International Trade Fair",
-            "avatar": { "image": "https://randomuser.me/api/portraits/thumb/women/2.jpg", "name": "Rute Franco" },
-            "button": "pressRelease",
-            "location": "Póvoa de Santa Iria",
-            "start": "2024/07/12",
-            "end": "2024/07/13"
-          }
         ]
       },
       {
@@ -105,6 +70,44 @@
           { "id": "3", "title": "Media Inquiries" },
           { "id": "4", "title": "General Inquiries" }
         ]
+      }
+    ],
+    "cards": [
+      {
+        "id": "1",
+        "image": "https://picsum.photos/id/75/500/300",
+        "subject": "",
+        "text": "GI products such as figs, pepper and olive oil grow under cooperation between the EU and Africa",
+        "avatar": { "image": "", "name": "" },
+        "button": "caseStudy",
+        "location": "",
+        "start": "",
+        "end": ""
+      },
+      {
+        "id": "2",
+        "image": "",
+        "subject": "Leaders League 2023",
+        "text": "The Legal 500: Intellectual Property Comparative Guide - Portugal",
+        "avatar": { "image": "", "name": "" },
+        "button": "pressRelease",
+        "location": "",
+        "start": "",
+        "end": ""
+      },
+      {
+        "id": "3",
+        "image": "",
+        "subject": "",
+        "text": "58th Edition FACIM - Maputo's International Trade Fair",
+        "avatar": {
+          "image": "https://randomuser.me/api/portraits/thumb/women/2.jpg",
+          "name": "Rute Franco"
+        },
+        "button": "",
+        "location": "Póvoa de Santa Iria",
+        "start": "2024/07/12",
+        "end": "2024/07/13"
       }
     ]
   },

@@ -28,11 +28,11 @@ function Card({ variant, data }) {
   }, [button, buttons, variant]);
 
   return (
-    <div className="card">
+    <div className={`card-${variant}`}>
       {image || start ? (
         <Marker content={image || start} variant={image ? "image" : "date"} />
       ) : (
-        <></>
+        <div className="no__marker"/>
       )}
       <div className="card__content">
         <div className="card__content__top">

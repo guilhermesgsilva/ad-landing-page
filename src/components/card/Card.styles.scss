@@ -2,39 +2,92 @@
 @use "../../theme/palette";
 @use "../../theme/typography";
 
-.card {
+@mixin card() {
   border-radius: 16px;
   box-shadow: 0 4px 21px 0 rgba(0, 0, 0, 0.07);
   position: relative;
-  width: spacing.$unit23_5;
-  height: spacing.$unit8_5;
   display: flex;
   background-color: palette.$white;
+  width: spacing.$unit23_5;
 }
 
-.card__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: spacing.$unit0_75;
+@mixin content(
+  $padding_top: spacing.$unit0_75,
+  $padding_right: spacing.$unit0_75,
+  $padding_bottom: spacing.$unit0_75,
+  $padding_left: spacing.$unit0_75
+) {
+  .card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: $padding_top $padding_right $padding_bottom $padding_left;
 
-  * {
-    margin: spacing.$none;
+    * {
+      margin: spacing.$none;
+    }
   }
 }
 
-.card__content__top {
+@mixin contentTop($gap: spacing.$unit0_5) {
   display: flex;
   flex-direction: column;
-  gap: spacing.$unit0_5;
+  gap: $gap;
+}
 
-  h4 {
-    @include typography.font();
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
+@mixin elipsis() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.card-large {
+  @include card();
+  height: spacing.$unit16;
+  @include content($padding_top: spacing.$unit1_5);
+  .card__content__top {
+    @include contentTop();
+    h4 {
+      @include typography.font();
+    }
+    h5 {
+      @include typography.font($size: typography.$font_size_s);
+    }
   }
+}
+
+.card-small {
+  @include card();
+  height: spacing.$unit7_75;
+  @include content();
+  .card__content__top {
+    @include contentTop($gap: spacing.$unit0_25);
+    h4 {
+      @include elipsis();
+      @include typography.font($size: typography.$font_size_s);
+    }
+    h5 {
+      @include typography.font($size: typography.$font_size_xs);
+    }
+  }
+}
+
+.card-opinionArticle {
+  @include card();
+  height: spacing.$unit8_5;
+  @include content();
+  .card__content__top {
+    @include contentTop();
+    h4 {
+      @include elipsis();
+      @include typography.font();
+    }
+  }
+}
+
+.no__marker {
+  margin-right: spacing.$unit0_75;
 }
