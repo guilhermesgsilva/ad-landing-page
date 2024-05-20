@@ -4,9 +4,15 @@
 .label {
   display: flex;
   align-items: center;
-  gap: spacing.$unit0_25;
+  gap: spacing.$unit0_5;
 
   * {
     @include typography.font($size: typography.$font_size_xxs);
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: spacing.$unit0_25;
   }
 }

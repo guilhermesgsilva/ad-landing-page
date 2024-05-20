@@ -12,8 +12,11 @@ import Avatar from "./components/avatar/Avatar";
 import Label from "./components/label/Label";
 import Marker from "./components/marker/Marker";
 
+// utils
+import { formatDate } from "../../utils/formatDate";
+
 function Card({ variant, data }) {
-  const { image, start, subject, text, avatar, button, location } = data;
+  const { image, start, end, subject, text, avatar, button, location } = data;
 
   const { buttons } = placeholder;
 
@@ -27,12 +30,26 @@ function Card({ variant, data }) {
     }
   }, [button, buttons, variant]);
 
+  const dateValue = useMemo(() => {
+    if (variant === "opinionArticle" && start) {
+      return formatDate(start, "d MMMM yyyy");
+    } else if (start && end) {
+      return `${formatDate(start, "d")} a ${formatDate(end, "d MMMM")}`;
+    } else {
+      return;
+    }
+  }, [variant, start, end]);
+
   return (
     <div className={`card-${variant}`}>
       {image || start ? (
-        <Marker content={image || start} variant={image ? "image" : "date"} />
+        <Marker
+          content={image || start}
+          variant={image ? "image" : "date"}
+          isLarge={variant === "large"}
+        />
       ) : (
-        <div className="no__marker"/>
+        <div className="no__marker" />
       )}
       <div className="card__content">
         <div className="card__content__top">
@@ -44,8 +61,13 @@ function Card({ variant, data }) {
             <></>
           )}
         </div>
-        {buttonText || location || start ? (
-          <Label button={buttonText} location={location} start={start} />
+        {buttonText || location || dateValue ? (
+          <Label
+            button={buttonText}
+            location={location}
+            dateValue={dateValue}
+            variant={variant}
+          />
         ) : (
           <></>
         )}

@@ -1,10 +1,11 @@
 @use "../../../../theme/spacing";
 @use "../../../../theme/palette";
+@use "../../../../theme/typography";
 
-.marker {
+@mixin marker($clip-path: circle(80% at 0 50%)) {
   min-width: spacing.$unit6;
   max-width: spacing.$unit6;
-  clip-path: circle(80% at 0 50%);
+  clip-path: $clip-path;
   background-color: palette.$grey_medium;
   border-radius: inherit;
 
@@ -13,6 +14,41 @@
     height: 100%;
     object-fit: cover;
     border-radius: inherit;
-    clip-path: circle(80% at 0 50%);
+    clip-path: $clip-path;
   }
+}
+
+.marker {
+  @include marker();
+}
+
+.marker-large {
+  @include marker($clip-path: ellipse(100% 85% at 0% 50%));
+}
+
+.marker__date {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: spacing.$unit1;
+  * {
+    margin: spacing.$none;
+    color: palette.$blue;
+  }
+}
+
+.marker__date__day {
+  @include typography.font(
+    $size: typography.$font_size_alt,
+    $weight: typography.$font_weight_light
+  );
+}
+
+.marker__date__month {
+  @include typography.font(
+    $size: typography.$font_size_xl,
+    $weight: typography.$font_weight_light
+  );
 }
