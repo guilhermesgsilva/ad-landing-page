@@ -1,5 +1,5 @@
 // libraries
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 // data
 import placeholder from "../../data/placeholder.json";
